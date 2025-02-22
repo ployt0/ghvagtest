@@ -42,4 +42,4 @@ jobs:
       # Runs series of commands inside guest, demonstrating they are sequenced with cd.
       - name: Run series of commands inside guest
         run: |
-          vagrant ssh -c "uname -a; lsb_release -a; ip a; whoami; free -h; df -h; pwd; cd /; pwd; top -n2"
+          vagrant ssh -- -t "uname -a; lsb_release -a; ip a; whoami; free -h; df -h; pwd; cd /; pwd; top -n2"
