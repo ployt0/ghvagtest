@@ -2,7 +2,7 @@
 
 Github vagrant test.
 
-I stopped using vagrant guests for testing a long time ago. Indeed they are slow and heavy but this repo shows they are there, working, and a minimal example of how long they take to setup.
+I stopped using vagrant guests for testing a long time ago. Indeed they are slow and heavy but this repo shows they are there, supported by github actions, and a minimal example of how long they take to setup.
 
 ## Next steps
 
